@@ -22,21 +22,26 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**
 
-`git clone https://github.com/YourUsername/react-metrics-dashboard.git`
 ```sh
    git clone https://github.com/YourUsername/react-metrics-dashboard.git
    cd react-metrics-dashboard
+```
 Install Dependencies
 While in the project directory, install the necessary dependencies:
 ```sh
    npm install
+```
 Running the Application
 Use the following command to start the development server:
-sh
+```sh
   npm start
+```
 This will serve the app at http://localhost:3000.
 Open your preferred web browser and navigate to http://localhost:3000 to view the application in action.
-Using the Dashboard
-Metric Monitoring: In the Metrics tab, you can visualize different system metrics through charts.
-Log Viewing: The Logs tab provides a scrollable view of system logs, allowing you to monitor recent activities based on the retrieved logs.
-Timeframe Selection: You can adjust the timeframe to retrieve metrics and logs from the past 5, 15, 30 minutes, or 1, 3, 6 hours through the dropdown selector.
+## Using the Dashboard
+### Metric Monitoring: 
+In the Metrics tab, you can visualize different system metrics through charts.
+### Log Viewing: 
+The Logs tab provides a scrollable view of system logs, allowing you to monitor recent activities based on the retrieved logs.
+### Timeframe Selection: 
+You can adjust the timeframe to retrieve metrics and logs from the past 5, 15, 30 minutes, or 1, 3, 6 hours through the dropdown selector.
