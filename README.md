@@ -22,12 +22,13 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**
 
+`git clone https://github.com/YourUsername/react-metrics-dashboard.git`
 ```sh
    git clone https://github.com/YourUsername/react-metrics-dashboard.git
    cd react-metrics-dashboard
 Install Dependencies
 While in the project directory, install the necessary dependencies:
-sh
+```sh
    npm install
 Running the Application
 Use the following command to start the development server:
